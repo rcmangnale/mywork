@@ -12,10 +12,17 @@ export default function Began() {
                 <p> Craft in Fiction Through Character</p>
               </div>
               <div className="flex justify-start gap-4 px-5 py-6 ">
-                <button className="p-2 text-sm font-bold bg-white border rounded-3xl">
-                  logo David William Hill{" "}
+                <button className="flex items-center content-center justify-start px-2 py-1 text-sm font-bold bg-white border align-center rounded-3xl">
+                <img
+                    className="block w-6 h-6"
+                    src="https://png.pngtree.com/png-clipart/20200224/original/pngtree-avatar-icon-profile-icon-member-login-vector-isolated-png-image_5247852.jpg"
+                    alt="icon"
+                  />
+                  <p className="">
+                   David William Hill{" "}
+                   </p>
                 </button>
-                <button className="w-24 px-2 text-sm font-bold bg-pink-200 border rounded-3xl">
+                <button className="w-24 px-2 text-sm font-bold bg-pink-100 border rounded-3xl">
                   Fiction
                 </button>
 
