@@ -22,7 +22,7 @@ export default function Example() {
     <Disclosure as="header" className="bg-white shadow">
       {({ open }) => (
         <>
-          <div className="px-2 mx-auto max-w-7xl sm:px-4 lg:px-8">
+          <div className="px-2 sm:px-4 lg:px-8">
             <div className="relative flex justify-between h-16">
               <div className="relative z-10 flex px-2 lg:px-0">
                 <div className="flex items-center flex-shrink-0">
@@ -96,7 +96,7 @@ export default function Example() {
               </div>
             </div>
             <nav
-              className="hidden lg:flex lg:space-x-8 lg:py-4 lg:pl-80"
+              className="hidden lg:flex lg:space-x-8 lg:py-4 lg:pl-[700px]"
               aria-label="Global"
             >
               {navigation.map((item) => (
