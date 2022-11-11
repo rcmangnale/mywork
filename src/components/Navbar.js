@@ -19,7 +19,7 @@ function classNames(...classes) {
 
 export default function Example() {
   return (
-    <Disclosure as="header" className="bg-white shadow">
+    <Disclosure as="header" className="mx-20 bg-white shadow">
       {({ open }) => (
         <>
           <div className="px-2 sm:px-4 lg:px-8">
