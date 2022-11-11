@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Began() {
+export default function Header() {
   return (
     <>
       <div className="py-12 mx-auto ">
