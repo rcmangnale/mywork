@@ -5,6 +5,7 @@ import Header from "./components/Header"
 import Main from "./components/Main"
 import Similar from './components/Similar';
 import Remote from "./components/Remote"
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Similar></Similar>
       </div>
       <Remote></Remote>
+      <Footer></Footer>
     </div>
   );
 }
