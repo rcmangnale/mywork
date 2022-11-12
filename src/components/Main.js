@@ -2,7 +2,7 @@ import React from "react";
 export default function Main() {
   return (
     <>
-      <div className="py-3 mx-auto bg-white">
+      <div className="pt-3 mx-auto bg-white">
         <div className="  lg:w-[1050px] lg:h-[1050px] grid grid-cols-2">
           <div className="w-[690px] h-[450px] py-12">
             <p className="px-10 text-lg text-left">

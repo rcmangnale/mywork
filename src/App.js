@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from "./components/Navbar"
 import Header from "./components/Header"
 import Main from "./components/Main"
+import Similar from './components/Similar';
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
       </div>
       <div className='flex justify-center bg-gray-200'>
       <Main></Main>
+      </div>
+      <div className='flex justify-center bg-gray-200'>
+        <Similar></Similar>
       </div>
     </div>
   );
