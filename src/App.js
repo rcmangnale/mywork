@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar"
 import Header from "./components/Header"
 import Main from "./components/Main"
 import Similar from './components/Similar';
+import Remote from "./components/Remote"
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <div className='flex justify-center bg-gray-200'>
         <Similar></Similar>
       </div>
+      <Remote></Remote>
     </div>
   );
 }
