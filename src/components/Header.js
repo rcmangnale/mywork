@@ -4,11 +4,11 @@ export default function Header() {
   return (
     <>
       <div className="py-12 mx-auto ">
-        <div className="h-[350px] py-12 bg-white lg:w-[1050px]">
-          <div className="grid grid-cols-2 h-[230px]">
-            <div className="grid h-40 grid-rows-2">
-              <div className="text-3xl font-extrabold w-[550px] text-gray-800">
-                <p className="pr-12">Let’s Begin Here: Approaching</p>
+        <div className="md:h-[350px] h-[650px] py-12 bg-white w-[450px] md:w-[1050px]">
+          <div className="grid md:grid-cols-2 grid-cols-1 h-[230px]">
+            <div className="grid h-40 grid-cols-1 md:grid-rows-2">
+              <div className="md:text-3xl text-xl font-extrabold w-[450px] md:w-[550px] text-gray-800">
+                <p className="lg:pr-12">Let’s Begin Here: Approaching</p>
                 <p> Craft in Fiction Through Character</p>
               </div>
               <div className="flex justify-start gap-4 px-5 py-6 ">
@@ -29,7 +29,7 @@ export default function Header() {
                 </button>
               </div>
             </div>
-            <div className="flex justify-center pl-28">
+            <div className="flex justify-center pl-2 md:pl-28">
               <div className="grid w-64 grid-rows-2 gap-6 h-60">
                 <div className="grid grid-rows-2 h-36">
                   <div className="grid grid-cols-2 font-bold border divide-x-2 rounded-md ">
@@ -54,7 +54,7 @@ export default function Header() {
               </div>
             </div>
           </div>
-          <div className="grid grid-cols-3 pb-10 divide-x-2 w-[1050px]">
+          <div className="grid lg:grid-cols-3 mt-32 md:mt-0 grid-cols-1  pb-10 divide-x-2 lg:w-[1050px]">
             <div>
               <div className="flex justify-center">
                 <img
