@@ -58,7 +58,7 @@ export default function Remote() {
         </div>
         <hr className="py-5 "></hr>
         <div>
-          <p className="py-5 pt-10 text-lg font-bold text-left">
+          <p className="py-5 pt-5 text-lg font-bold text-left">
             Cancelation Policy
           </p>
           <p className="text-left">
