@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <>
       <div className="py-12 mx-auto ">
-        <div className="h-[350px] py-12 bg-white lg:w-[1125px]">
+        <div className="h-[350px] py-12 bg-white lg:w-[1050px]">
           <div className="grid grid-cols-2 h-[230px]">
             <div className="grid h-40 grid-rows-2">
               <div className="text-3xl font-extrabold w-[550px] text-gray-800">
@@ -29,7 +29,7 @@ export default function Header() {
                 </button>
               </div>
             </div>
-            <div className="flex justify-center">
+            <div className="flex justify-center pl-28">
               <div className="grid w-64 grid-rows-2 gap-6 h-60">
                 <div className="grid grid-rows-2 h-36">
                   <div className="grid grid-cols-2 font-bold border divide-x-2 rounded-md ">
