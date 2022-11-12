@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <>
       <div className="py-12 mx-auto ">
-        <div className="h-[350px] py-12 bg-white lg:w-[1125px] rou">
+        <div className="h-[350px] py-12 bg-white lg:w-[1125px]">
           <div className="grid grid-cols-2 h-[230px]">
             <div className="grid h-40 grid-rows-2">
               <div className="text-3xl font-extrabold w-[550px] text-gray-800">
